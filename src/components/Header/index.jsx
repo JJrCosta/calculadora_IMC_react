@@ -1,8 +1,10 @@
+import './header.css'
+
 const Header = () => {
     return (
         <header className="header">
-            <h1>Calculadora IMC</h1>
-            <h2>Você sabe qual é o seu peso ideal?</h2>
+            <h1 className="header__title">Calculadora IMC</h1>
+            <h2 className="header__subtitle">Você está no seu peso ideal?</h2>
         </header>
     )
 }
