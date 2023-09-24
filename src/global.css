@@ -9,7 +9,7 @@
     width: 100%;
     max-width: 1024px;
     margin: 0 auto;
-    background-color: rgba(15, 155, 180, 0.2);
-    padding: 16px;
+    background-color: rgba(15, 155, 180, 0.1);
+    padding: 3%;
     border-radius: 5px;
 }
