@@ -14,7 +14,17 @@ const Calculator = () => {
         }
     }
     const renderResultado = () => {
-        if (resultado < 18.5 && resultado > 1) {
+        if (resultado < 10 || altura >= 3 ) {
+            return (
+                <div className="resultado-detalhes bg-red">
+                    <p className='resultado-valor'>D:</p>
+                    <p className='resultado-indice'>Oops!!</p>
+                    <p className='resultado-descript'>
+                        Algo deu errado, verifique os valores informados e tente novamente
+                    </p>
+                </div>
+            )
+        } else if (resultado < 18.5 && resultado > 1) {
             return (
                 <div className="resultado-detalhes bg-yellow">
                     <p className='resultado-valor'>18,5 ou menos</p>
@@ -71,16 +81,6 @@ const Calculator = () => {
                     <p className='resultado-indice'>Obesidade grau III</p>
                     <p className='resultado-descript'>
                         Aqui o sinal é vermelho, com forte probabilidade de já existirem doenças muito graves associadas. O tratamento deve ser ainda mais urgente.
-                    </p>
-                </div>
-            )
-        } else if (resultado > 0 && resultado <= 5) {
-            return (
-                <div className="resultado-detalhes bg-red">
-                    <p className='resultado-valor'>D:</p>
-                    <p className='resultado-indice'>Oops!!</p>
-                    <p className='resultado-descript'>
-                        Algo deu errado, verifique os valores informados e tente novamente
                     </p>
                 </div>
             )
