@@ -5,7 +5,7 @@ const Content = () => {
         <section className="conteudo">
             <h3 className='conteudo__subtitulo'>O que é IMC?</h3>
             <div className="conteudo__container">
-                <img className='conteudo__img' src="./src/assets/img/balanca.jpg" alt="Imagem de uma balaça." />
+                <img className='conteudo__img' src="https://images.unsplash.com/photo-1618939291225-8d558ea4369f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Imagem de uma balaça." />
                 <div className="conteudo__texto">
                     <p className="texto">
                         Criado no século 19 pelo matemático Lambert Quételet, o <strong>Índice de Massa Corporal</strong>, conhecido pela sigla IMC, é um cálculo simples que permite medir se alguém está ou não com o peso ideal, ajudando a identificar problemas de obesidade ou desnutrição, em crianças, adolescentes, adultos e idosos. Ter um peso dentro do intervalo de peso ideal ajuda ainda a evitar o aparecimento de várias doenças crônicas, como diabetes e hipertensão.
