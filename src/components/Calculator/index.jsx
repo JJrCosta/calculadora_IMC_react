@@ -74,7 +74,7 @@ const Calculator = () => {
                     </p>
                 </div>
             )
-        } else {
+        } else if (resultado > 0 && resultado <= 5) {
             return (
                 <div className="resultado-detalhes bg-red">
                     <p className='resultado-valor'>D:</p>
