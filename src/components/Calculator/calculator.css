@@ -61,14 +61,17 @@ button:hover {
     font-weight: bold;
 }
 
-.resultado-info {
+.resultado-detalhes {
     padding: 32px;
-    background-color: rgba(255, 9, 1, 0.5);
     border-radius: 15px;
     margin-left: 24px;
     color: #252525;
     line-height: 24px;
     text-align: center;
+}
+
+.resultado-info {
+    width: 100%;
 }
 
 .resultado-valor {
@@ -87,7 +90,7 @@ button:hover {
         align-items: center;
     }
     .formulario,
-    .resultado-info {
+    .resultado-detalhes {
         width: 100%;
     }
     fieldset,
@@ -97,7 +100,7 @@ button:hover {
     label {
         margin-right: 15px;
     }
-    .resultado-info {
+    .resultado-detalhes {
         margin-left: 0;
     }
 }
